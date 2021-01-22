@@ -2,7 +2,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-/*   para respeitar o width definido das coisas */}
+  /*   para respeitar o width definido das coisas */
+}
 
 body {
   font-family: "Nunito", Arial, Helvetica, sans-serif;
@@ -23,4 +24,28 @@ img {
   max-width: 20%;
 }
 
+/* superinfo */
 
+.superinfo-bg {
+  background-color: #122ab2;
+  color: white;
+}
+.superinfo {
+  max-width: 960px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.superinfo p,
+.superinfo a {
+  margin: 0 10px 10px 10px;
+}
+
+.superinfo a {
+  color: white;
+}
+
+/* Menu */
